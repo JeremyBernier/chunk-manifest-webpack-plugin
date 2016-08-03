@@ -27,6 +27,8 @@ module.exports = {
 };
 ```
 
+Currently, this plugin is dependent on the [webpack-md5-hash](https://github.com/erm0l0v/webpack-md5-hash) plugin to work properly. Install that plugin as well (`npm install webpack-md5-hash`) and include it in your webpack plugins (`new WebpackMd5Hash()`).
+
 ### Options
 
 #### `filename`
